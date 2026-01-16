@@ -63,7 +63,7 @@ predictive_maintenance/
 │       └── RUL_FD001.txt
 │
 ├── notebooks/
-│   └── 01_eda_and_modeling.ipynb
+│   └── 01_eda.ipynb
 │
 ├── README.md
 └── requirements.txt
