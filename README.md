@@ -3,16 +3,12 @@
 ## Description
 Predictive maintenance project using classic machine learning techniques to predict equipment failure from multivariate sensor time-series data. The project emphasizes exploratory analysis, rolling feature engineering, and leakage-aware validation rather than deep learning.
 
----
-
 ## Dataset
 - **Source:** NASA CMAPSS (FD001)
 - **Records:** ~20,000+
 - **Engines:** 100
 - **Features:** 3 operational settings, 21 sensor readings
 - **Target:** Binary failure indicator (failure within next 30 cycles)
-
----
 
 ## Approach
 
@@ -34,23 +30,17 @@ Predictive maintenance project using classic machine learning techniques to pred
   - Random Forest
 - Evaluated using ROC–AUC
 
----
-
 ## Results
 - **Logistic Regression ROC–AUC:** ~0.99  
 - **Random Forest ROC–AUC:** ~0.99  
 
 Both models achieved comparable performance, indicating strong feature separability driven by rolling statistical features.
 
----
-
 ## Tech Stack
 - Python
 - pandas, NumPy
 - scikit-learn
 - matplotlib, seaborn
-
----
 
 ## Repository Structure
 ```text
